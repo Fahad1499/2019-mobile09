@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         rvSuperHero = findViewById(R.id.rvSuperHero);
-        SuperHero hero = new SuperHero("Petruk", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQL3s6Jap-LJdTH5OtE5plhXmu8JfOFPt8Ilq9JL4c7FJ-jiXWW");
+        SuperHero hero = new SuperHero("Spider-Man", "https://cdn.dribbble.com/users/1827485/screenshots/4266390/spiderman-01.png");
         listSuperHero.add(hero);
-        hero = new SuperHero("Gareng", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMEkvUp9OwvFV0KTjIfAxGMqVrD4ACV3jvVTOrKDE3HNYyH5X6");
+        hero = new SuperHero("Iron Man", "https://shop.r10s.jp/cinemacollection/cabinet/r20180501/ir-ig-2150.jpg");
         listSuperHero.add(hero);
 
         SuperHeroAdapter superHeroAdapter = new SuperHeroAdapter(listSuperHero);
